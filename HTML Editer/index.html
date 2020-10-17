@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="./jquery.js"></script>
+    <link rel="stylesheet" href="./jqueryui/jquery-ui.css">
+    <script src="./jqueryui/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <div id="logo">
+      CodePlayer
+    </div>
+    <div id="buttoncontainer">
+    <div class="toggleButton active" id="html">HTML</div>
+    <div class="toggleButton" id="css">CSS</div>
+    <div class="toggleButton" id="Javascript">JavaScript</div>
+    <div class="toggleButton active" id="output">Output</div>
+  </div>
+  </div>
+  <div id="bodycontainer">
+    <textarea id="htmlpanel" class="panel" ><p>hello word</p></textarea>
+    <textarea id="csspanel" class="panel hidden" >p{color:red;}</textarea>
+    <textarea id="javascriptpanel" class="panel hidden" >alert("hello!</textarea>
+    <iframe id="outputpanel" class="panel"></iframe>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
